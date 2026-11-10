@@ -25,11 +25,12 @@ jobs:
         with:
           node-version: '22'
 
+      
+    
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-
-      - name: Install dependencies
-        run: npm install
+        with:
+          cmdline-tools-version: 12266719
 
       - name: Create Android project
         run: npx cap add android
