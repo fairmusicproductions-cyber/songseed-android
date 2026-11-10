@@ -1,0 +1,24 @@
+{
+  "name": "SongSeed \u2014 Fair Music Productions",
+  "short_name": "SongSeed",
+  "description": "Offline songwriting inspiration, challenges and rhyme finder",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#171412",
+  "theme_color": "#211a16",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
