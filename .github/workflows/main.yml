@@ -39,6 +39,9 @@ jobs:
           yes | "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager" --licenses || true
 
 
+      - name: Install Node.js dependencies
+        run: npm install
+
       - name: Create Android project
         run: npx cap add android
 
